@@ -29,13 +29,13 @@ class Entidade:
         print(f"\n{BOLD}{self.nome}{RESET} está atacando {BOLD}{alvo.nome}{RESET}!")
         
         if chance <= alvo.esquiva:
-            print(f" 💨 {CYAN}{alvo.nome} foi ágil e desviou do ataque!{RESET}")
+            print(f"  {CYAN}{alvo.nome} foi ágil e desviou do ataque!{RESET}")
         else:
             dano = self.ataque - alvo.defesa
             if dano < 0:
                 dano = 0
             alvo.vida -= dano
-            print(f" ⚔️  {RED}{self.nome} causou {dano} de dano!{RESET}")
+            print(f"   {RED}{self.nome} causou {dano} de dano!{RESET}")
 
     def status(self):
         """Exibe graficamente a barra de vida e HP atual."""
