@@ -18,7 +18,7 @@ class Jogador(Entidade):
 
     def ganhar_exp(self, quantidade):
         """Adiciona experiência e gerencia o aumento de nível."""
-        print(f"\n {YELLOW}🌟 Você ganhou {quantidade} de experiência!{RESET}")
+        print(f"\n {YELLOW} Você ganhou {quantidade} de experiência!{RESET}")
         self.exp += quantidade
 
         if self.exp >= 100:
@@ -37,6 +37,6 @@ class Jogador(Entidade):
             cura = 40
             self.vida = min(self.vida_max, self.vida + cura)
             self.pocoes -= 1
-            print(f" {GREEN}🧪 Você usou uma poção e recuperou {cura} HP! ({self.pocoes} restantes){RESET}")
+            print(f" {GREEN} Você usou uma poção e recuperou {cura} HP! ({self.pocoes} restantes){RESET}")
         else:
-            print(f" {YELLOW}❌ Você não tem mais poções!{RESET}")
+            print(f" {YELLOW} Você não tem mais poções!{RESET}")
