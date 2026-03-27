@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 from entidade import Entidade, GREEN, YELLOW, RESET, BOLD
 
 class Jogador(Entidade):
@@ -41,7 +41,7 @@ class Jogador(Entidade):
             print(f" {GREEN}🧪 Você usou uma poção e recuperou {cura} HP! ({self.pocoes} restantes){RESET}")
         else:
             print(f" {YELLOW}❌ Você não tem mais poções!{RESET}")
-=======
+
 from entidade import Entidade, GREEN, YELLOW, RESET, BOLD
 
 class Jogador(Entidade):
@@ -84,4 +84,3 @@ class Jogador(Entidade):
             print(f" {GREEN} Você usou uma poção e recuperou {cura} HP! ({self.pocoes} restantes){RESET}")
         else:
             print(f" {YELLOW} Você não tem mais poções!{RESET}")
->>>>>>> b63bf18e3fcfbc54eaab6b64827ea8c76b9137ff

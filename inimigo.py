@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 from entidade import Entidade
 
 class Bruxa(Entidade):
@@ -82,7 +82,7 @@ inimigos = {
     "medios": [SereiaAbisal, Lobisomem, Vampiro, Troll, Fantasma],
     "fortes": [Doppelganger, Demonio, Dragao, Necromante, Hidra]
 }
-=======
+
 from entidade import Entidade
 
 class Bruxa(Entidade):
@@ -166,4 +166,4 @@ inimigos = {
     "medios": [SereiaAbisal, Lobisomem, Vampiro, Troll, Fantasma],
     "fortes": [Doppelganger, Demonio, Dragao, Necromante, Hidra]
 }
->>>>>>> b63bf18e3fcfbc54eaab6b64827ea8c76b9137ff
+
