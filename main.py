@@ -17,8 +17,23 @@ def cabecalho(texto):
     print(f"{BOLD}{MAGENTA} {texto:^38} {RESET}")
     print(f"{BOLD}{CYAN}{'='*40}{RESET}\n")
 
+def introducao():
+    limpar()
+    cabecalho("PRÓLOGO")
+    
+    print("Em um mundo consumido pela escuridão...")
+    time.sleep(1.5)
+    print("Criaturas emergem das sombras e reinos caem em silêncio.")
+    time.sleep(1.5)
+    print("A esperança é apenas uma lenda esquecida.")
+    time.sleep(1.5)
+    print("\nMas algo desperta...")
+    time.sleep(1.5)
+    print(f"{BOLD}Você é a última chama contra o abismo.{RESET}")
+
 limpar()
 cabecalho("RPG PATH DARK")
+introducao()
 
 print(f"{BOLD}Escolha sua dificuldade inicial:{RESET}")
 print(f"{GREEN}1 - Fácil{RESET} (Inimigos fracos)")
